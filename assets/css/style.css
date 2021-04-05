@@ -14,7 +14,7 @@ min-height: 100vh;
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
-background: url(../images/Refer-Doctor.jpg); no-repeat center center
+background: url(../images/Background-2.jpeg); no-repeat center center
 background-size: cover;
 background-position: center;
 }
@@ -30,12 +30,12 @@ header {
 }
 
 .heading-text {
-    color: #000;
+    color: #df1515;
 }
 
 header .logo {
     position: relative;
-    color: #000;
+    color: #df1515;
     font-size: 30px;
     text-decoration: none;
     text-transform: uppercase;
@@ -44,7 +44,7 @@ header .logo {
 }
 
 header .navigation a{
-  color: #000;
+  color: #df1515;
   font-size: 18px;
   text-decoration: none;
   font-weight: 500;
@@ -69,7 +69,7 @@ header .navigation a:hover{
 } 
 
 .content .info h2 {
-    color: #226A80;
+    color: #df1515;
     font-size: 55px;
     text-transform: uppercase;
     font-weight: 800;
@@ -79,21 +79,21 @@ header .navigation a:hover{
 }
 
 .content .info h2 span {
-    color: #fff;
+    color: #df1515;
     font-size: 20px;
     font-weight: 600;
-    padding-top: 20px;
 }
 
 .content .info p {
     font-size: 16px;
     font-weight: 500;
     margin-bottom: 40px;
+    color: #df1515;
 }
 
 .content .info-btn {
     color: #fff;
-    background: #226A80;
+    background: #df1515;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 700;
@@ -105,7 +105,7 @@ header .navigation a:hover{
 }
 
 .content .info-btn:hover {
-    background: #0c4F60;
+    background: #df1515;
 }
 
 .media-icons {
@@ -117,7 +117,7 @@ header .navigation a:hover{
 
 .media-icons a {
     position: relative;
-    color: #111;
+    color: #df1515;
     font-size: 25px; 
 }
 
@@ -141,7 +141,7 @@ label {
 
 .sign-up-form {
     width: 400px;
-    box-shadow:  0 0 3px 0 #FB9077;
+    box-shadow:  0 0 3px 0 #df1515;
     background: #fff;
     padding: 40px;
     margin: 8% auto 0;
@@ -151,7 +151,7 @@ label {
 }
 
 .sign-up-form h1 {
-    color: #264057;
+    color: #df1515;
     margin-bottom: 30px;
 }
 
@@ -160,7 +160,7 @@ label {
     padding: 10px;
     margin: 10px 0;
     width: 100%;
-    border: 1px solid #FB9077;
+    border: 1px solid #df1515;
     outline: none;
 
 }
@@ -175,7 +175,7 @@ button {
     border: none;
     outline: none;
     cursor: pointer;
-    background-color: #264057; 
+    background-color: #df1515; 
 }
 
 .demo {
@@ -241,19 +241,19 @@ button {
     font-weight: 300;
     margin-top: 120px;
     margin-bottom:25px;
-    color:#000;
+    color:#df1515;
 }
 
 .center-form {
     padding-top: 25px;
     margin: 0 auto;
-    max-width: 78%;
+    max-width: 60%;
 }
 
 button[type="submit"] {
     margin-top: 20px;
     margin-bottom: 20px;
-    color: #0c4F60;
+    color: #df1515;
     background-color: #fff;
 }
 
