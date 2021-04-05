@@ -7,7 +7,7 @@
     font-family: "EXO", sans-serif;
 }
 
-section {
+#landing {
 position: relative;
 width: 100%;
 min-height: 100vh;
@@ -27,6 +27,10 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.heading-text {
+    color: #000;
 }
 
 header .logo {
@@ -62,7 +66,7 @@ header .navigation a:hover{
 .content {
     max-width: 650px;
     margin: 60px 100px;
-}
+} 
 
 .content .info h2 {
     color: #226A80;
@@ -71,13 +75,14 @@ header .navigation a:hover{
     font-weight: 800;
     letter-spacing: 2px;
     line-height: 60px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .content .info h2 span {
     color: #fff;
-    font-size: 50px;
+    font-size: 20px;
     font-weight: 600;
+    padding-top: 20px;
 }
 
 .content .info p {
@@ -95,4 +100,256 @@ header .navigation a:hover{
     letter-spacing: 2px;
     padding: 10px 20px;
     border-radius: 5px;
+    transition: 0.3s;
+    transition-property: background;
+}
+
+.content .info-btn:hover {
+    background: #0c4F60;
+}
+
+.media-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.media-icons a {
+    position: relative;
+    color: #111;
+    font-size: 25px; 
+}
+
+.media-icons a:not(:last-child) {
+    margin-right: 60px;
+}
+
+.media-icons a:hover{
+  transform: scale(1.5);
+}
+
+label {
+    display: none;
+}
+
+#check {
+    z-index: 3;
+}
+
+/* ----------------------------------------Registration form */
+
+.sign-up-form {
+    width: 400px;
+    box-shadow:  0 0 3px 0 #FB9077;
+    background: #fff;
+    padding: 40px;
+    margin: 8% auto 0;
+    text-align: center;
+    margin-top: 36px;
+    
+}
+
+.sign-up-form h1 {
+    color: #264057;
+    margin-bottom: 30px;
+}
+
+.input-box {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #FB9077;
+    outline: none;
+
+}
+
+button {
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #264057; 
+}
+
+.demo {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #fff;
+    background-position: center;
+}
+
+.style hr {
+    margin-top: 20px;
+    width: 80%;
+ }
+
+ .or {
+     background: #fff;
+     width: 30px;
+     margin: -19px auto 10px;
+ }
+
+ /* ----------------------------------------Instagram feed */
+
+
+ #times{
+    
+    
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+#times div{
+   color: #fafafa;
+   width: 25%;
+   height: 350px;
+   float: left;
+   padding: 40px 0 0 10px;
+   text-align: center;
+   margin: 0;
+
+}
+
+
+#times h2{
+    color:#fafafa;
+}
+
+ /* ----------------------------------------Footer */
+
+ .social {
+     width: 100%;
+     margin-top: 40px;
+     margin-bottom: 40px;
+ }
+
+ /* ----------------------------------------Contact Form */
+
+
+  .contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 120px;
+    margin-bottom:25px;
+    color:#000;
+}
+
+.center-form {
+    padding-top: 25px;
+    margin: 0 auto;
+    max-width: 78%;
+}
+
+button[type="submit"] {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #0c4F60;
+    background-color: #fff;
+}
+
+
+
+
+
+/* Responsive CSS */
+
+@media (max-width: 960px){
+  header .navigation{
+    display: none;
+  }
+
+  label{
+    display: block;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+    transition-property: color;
+  }
+
+  label:hover{
+    color: #fff;
+  }
+
+  label .close-btn{
+    display: none;
+}
+
+  #check:checked ~ header .navigation{
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(114, 223, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #check:checked ~ header .navigation a {
+      font-weight: 700;
+      margin-right: 0;
+      margin-bottom: 50px;
+      letter-spacing: 2px;
+}
+  #check:checked ~ header label .close-btn{
+    z-index: 2;
+    position: fixed;
+    display: block;
+  }
+
+  #check:checked ~ header label .menu-btn{
+    display: none;
+  }
+
+  label .menu-btn{
+    position: absolute;
+  }
+
+  header .logo { 
+    position: absolute;
+    bottom: -6px;
+  }
+
+  .content .info h2 {
+      font-size: 45px;
+      line-height: 50px;
+  }
+
+  .content .info h2 span {
+      font-size: 40px;
+      font-weight: 600;
+    }
+
+  .content .info p {
+      font-size: 14px;
+   }
+}
+
+@media (max-width: 560px){
+  .content .info h2{
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .content .info h2 span{
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .content .info p{
+    font-size: 14px;
+  }
 }
