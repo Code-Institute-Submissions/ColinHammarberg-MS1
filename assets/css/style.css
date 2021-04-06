@@ -257,6 +257,14 @@ button[type="submit"] {
     background-color: #fff;
 }
 
+ /* ----------------------------------------Contact Form */
+
+
+video {
+    width: 100% !important;
+    height: auto !important;
+}
+
 
 
 
@@ -352,4 +360,5 @@ button[type="submit"] {
   .content .info p{
     font-size: 14px;
   }
+
 }
