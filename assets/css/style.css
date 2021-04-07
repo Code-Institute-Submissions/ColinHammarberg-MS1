@@ -422,6 +422,15 @@ font-weight: 900;
   .content .info p {
       font-size: 14px;
    }
+
+   .about-section {
+       background-size: 100%;
+       padding: 100px 40px;
+   }
+
+   .inner-container {
+       width: 100%;
+   }
 }
 
 @media (max-width: 560px){
@@ -437,6 +446,14 @@ font-weight: 900;
 
   .content .info p{
     font-size: 14px;
+  }
+
+  .about-section {
+      padding: 0;
+  }
+
+  .inner-container {
+      padding: 60px;
   }
 
 }
