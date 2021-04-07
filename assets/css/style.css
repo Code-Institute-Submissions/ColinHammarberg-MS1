@@ -14,7 +14,7 @@ min-height: 100vh;
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
-background: url(../images/Background-2.jpeg); no-repeat center center
+background: url(../images/Image2.jpg); no-repeat center center
 background-size: cover;
 background-position: center;
 }
@@ -30,12 +30,12 @@ header {
 }
 
 .heading-text {
-    color: #df1515;
+    color: #23355E;
 }
 
 header .logo {
     position: relative;
-    color: #df1515;
+    color: #23355E;
     font-size: 30px;
     text-decoration: none;
     text-transform: uppercase;
@@ -44,7 +44,7 @@ header .logo {
 }
 
 header .navigation a{
-  color: #df1515;
+  color: #23355E;
   font-size: 18px;
   text-decoration: none;
   font-weight: 500;
@@ -60,7 +60,7 @@ header .navigation a:not(:last-child){
 }
 
 header .navigation a:hover{
-  background: #fff;
+  background: #B7876F;
 }
 
 .content {
@@ -69,7 +69,7 @@ header .navigation a:hover{
 } 
 
 .content .info h2 {
-    color: #df1515;
+    color: #23355E;
     font-size: 55px;
     text-transform: uppercase;
     font-weight: 800;
@@ -79,7 +79,7 @@ header .navigation a:hover{
 }
 
 .content .info h2 span {
-    color: #df1515;
+    color: #23355E;
     font-size: 20px;
     font-weight: 600;
 }
@@ -88,12 +88,12 @@ header .navigation a:hover{
     font-size: 16px;
     font-weight: 500;
     margin-bottom: 40px;
-    color: #df1515;
+    color: #23355E;
 }
 
 .content .info-btn {
     color: #fff;
-    background: #df1515;
+    background: #23355E;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 700;
@@ -105,7 +105,7 @@ header .navigation a:hover{
 }
 
 .content .info-btn:hover {
-    background: #df1515;
+    background: #B7876F;
 }
 
 .media-icons {
@@ -117,7 +117,7 @@ header .navigation a:hover{
 
 .media-icons a {
     position: relative;
-    color: #df1515;
+    color: #23355E;
     font-size: 25px; 
 }
 
@@ -141,7 +141,7 @@ label {
 
 .sign-up-form {
     width: 400px;
-    box-shadow:  0 0 3px 0 #df1515;
+    box-shadow:  0 0 3px 0 #23355E;
     background: #fff;
     padding: 40px;
     margin: 8% auto 0;
@@ -151,7 +151,7 @@ label {
 }
 
 .sign-up-form h1 {
-    color: #df1515;
+    color: #23355E;
     margin-bottom: 30px;
 }
 
@@ -160,7 +160,7 @@ label {
     padding: 10px;
     margin: 10px 0;
     width: 100%;
-    border: 1px solid #df1515;
+    border: 1px solid #23355E;
     outline: none;
 
 }
@@ -175,7 +175,7 @@ button {
     border: none;
     outline: none;
     cursor: pointer;
-    background-color: #df1515; 
+    background-color: #23355E; 
 }
 
 .demo {
@@ -210,7 +210,7 @@ button {
 }
 
 #times div{
-   color: #fafafa;
+   color: #23355E;
    width: 25%;
    height: 350px;
    float: left;
@@ -222,7 +222,7 @@ button {
 
 
 #times h2{
-    color:#fafafa;
+    color:#23355E;
 }
 
  /* ----------------------------------------Footer */
@@ -241,7 +241,11 @@ button {
     font-weight: 300;
     margin-top: 120px;
     margin-bottom:25px;
-    color:#df1515;
+    color:#23355E;
+}
+
+h5 {
+    color: #23355E;
 }
 
 .center-form {
@@ -253,8 +257,8 @@ button {
 button[type="submit"] {
     margin-top: 20px;
     margin-bottom: 20px;
-    color: #df1515;
-    background-color: #fff;
+    color: #fff;
+    background-color: #23355E;
 }
 
  /* ----------------------------------------Video Gallery */
@@ -300,7 +304,7 @@ background-color: #f1f1f1;
 }
 
 .about-section {
-    background: url(../images/vaccine.jpeg) no-repeat left;
+    background: url(../images/image3.jpg) no-repeat left;
     background-size: 55%;
     background-color: #fdfdfd;
     overflow: hidden;
@@ -310,19 +314,21 @@ background-color: #f1f1f1;
 .inner-container {
     width: 55%;
     float: right;
-    background-color: #fdfdfd;
+    background-color: #f1f1f1;
     padding: 150px;
 }
 
 .inner-container h1 {
-margin-bottom: 30px;
+margin-bottom: 70px;
 font-size: 30px;
 font-weight: 900;
+color: #23355E;
+margin-top: 10px;
 }
 
 .text {
     font-size: 13px;
-    color: #545454;
+    color: #23355E;
     line-height: 30px;
     text-align: justify;
     margin-bottom: 40px;
@@ -333,6 +339,7 @@ font-weight: 900;
     justify-content: space-between;
     font-weight: 700;
     font-size: 13px;
+    color: #23355E;
 }
 
 
