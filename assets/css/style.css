@@ -546,11 +546,11 @@ margin-top: 10px;
   }
 
   .contact-form {
-      width: 350px;
+      width: 100%;
   }
 
   .social {
-      width: 375px;
+      width: 100%;
   }
 
 }
