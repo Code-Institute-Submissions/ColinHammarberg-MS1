@@ -193,6 +193,7 @@ button {
     outline: none;
     cursor: pointer;
     background-color: #23355E; 
+    text-transform: uppercase;
 }
 
 .demo {
@@ -341,6 +342,7 @@ button {
     outline: none;
     cursor: pointer;
     background-color: #23355E; 
+    text-transform: uppercase;
 }
 
 .contact {
@@ -372,7 +374,7 @@ background-color: #f1f1f1;
 }
 
 .about-section {
-    background: url(../images/image3.jpg) no-repeat left;
+    background: url(../images/Covid-19.jpeg) no-repeat left;
     background-size: 55%;
     background-color: #fdfdfd;
     overflow: hidden;
@@ -425,6 +427,7 @@ margin-top: 10px;
     text-align: center;
     margin-left: 110px;
     margin-top: 50px;
+    text-transform: uppercase;
     
 }
 
