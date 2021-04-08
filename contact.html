@@ -11,7 +11,7 @@
     <title>Refer Doctor</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 </head>
-<body>
+<body class="contact">
     <section id="landing">
         <input type="checkbox" id="check">
         <header>
@@ -28,18 +28,20 @@
             </label>
         </header>
         <section class="container-fluid">
-        <div class="row bg-color-contact" id="image">
+        <div class="contact-form" id="image">
             <div class="col">
-                <h3 class="contact-heading uppercase text-center">If you've got any questions, please contact us here.</h3>
-                <h5 class="uppercase text-center">We usually get back to all inquires within 24 hours.</h5>
+                <h3>If you've got any questions, please contact us here.</h3>
+                <h5>We usually get back to all inquires within 24 hours.</h5>
                 <div class="center-form">
                     <form> 
-                        <input type="text" name="name" id="fullname" class="form-control" Placeholder="Name" required/>
-                        <input type="email" name="email" id="emailaddress" class="form-control" Placeholder="Email" required/>
-                        <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" placeholder="Project description">Message</textarea>
+                        <input type="text" class="input-box" placeholder="Your Name" required/>
+                        <input type="email" class="input-box" placeholder="Your Email" required/>
+                        <textarea rows="5" name="message" id="message" class="form-control" placeholder="Message-Description">Message</textarea>
+                        <p><span><input type="checkbox"></input></span> I agree to the terms and condition</p>
+                        <button type="button" class="inquiry-btn">Send Inquiry</button>
                         <div class="form-row text-center">
                             <div class="col-two">
-                                <a href="#" class="btn btn-secondary">Register</a>
+                                
                             </div>
                         </div>
                     </form>

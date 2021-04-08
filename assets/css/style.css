@@ -252,28 +252,49 @@ button {
 
  /* ----------------------------------------Contact Form */
 
-
-  .contact-heading {
-    font-family: "Exo", sans-serif;
-    font-weight: 300;
-    margin-top: 120px;
-    margin-bottom:25px;
-    color:#23355E;
+.contact-form {
+    width: 550px;
+    box-shadow:  0 0 3px 0 #23355E;
+    background: #fff;
+    padding: 40px;
+    margin: 8% auto 0;
+    text-align: center;
+    margin-top: 36px;
+    
 }
 
-h5 {
+.col h3 {
     color: #23355E;
+    margin-bottom: 30px;
 }
 
-.center-form {
-    padding-top: 25px;
-    margin: 0 auto;
-    max-width: 60%;
+.col h5 {
+    color: #23355E;
+    margin-bottom: 30px;
 }
 
-.col-two .btn btn-secondary {
-    color: #000;
-    width: 20%;
+.input-box {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #23355E;
+    outline: none;
+
+}
+
+.form-control {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #23355E;
+    outline: none;
+}
+
+button {
+    color: #fff;
+    width: 100%;
     padding: 10px;
     border-radius: 20px;
     font-size: 15px;
@@ -281,12 +302,19 @@ h5 {
     border: none;
     outline: none;
     cursor: pointer;
-    background-color: #23355E;
-    position: absolute;
-    text-align: center;
-    margin-left: 110px;
-    margin-top: 50px; 
+    background-color: #23355E; 
 }
+
+.contact {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #fff;
+    background-position: center;
+}
+
+
+  
 
 
  /* ----------------------------------------About us */
