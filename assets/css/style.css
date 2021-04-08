@@ -242,13 +242,51 @@ button {
     color:#23355E;
 }
 
- /* ----------------------------------------Footer */
+ /* ----------------------------------------Social Media Footer */
 
  .social {
      width: 100%;
      margin-top: 40px;
      margin-bottom: 40px;
  }
+
+  /* ----------------------------------------Contact Details Footer */
+
+  .info {
+    margin-bottom: 30px;
+    display: block;
+    clear: both;
+    text-align: center;
+}
+
+.info .key,
+.info .value {
+    padding-right: 4px;
+    display: inline-block;
+}
+
+.info .key p,
+.info .value p {
+    margin: 0px;
+    margin-top: 50px;
+}
+
+.info .key {
+    width: 20%;
+    margin-right: 120px;
+    padding-top: 2px;
+    
+}
+
+.info .key p {
+    font-weight: 700;
+}
+
+.info .value {
+    
+    width: 20%;
+}
+
 
  /* ----------------------------------------Contact Form */
 
