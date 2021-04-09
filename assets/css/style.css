@@ -156,6 +156,7 @@ label {
     align-items: center;
     min-height: 100vh;
     font-family: sans-serif;
+    background-color: rgb(228, 228, 228);
 }
 
 .container {
@@ -168,7 +169,7 @@ label {
     position: relative;
     width: 350px;
     padding: 40px;
-    background: rgb(72, 255, 0);
+    background: #fff;
     box-shadow: 0 5px 15px rgba(0,0,0,.1);
     border-radius: 4px;
     margin: 20px;
@@ -217,8 +218,27 @@ box-shadow: 0 0 0 400px #e91e63;
     font-size: 20px;
     margin: 10px 0;
     padding: 0;
-
 }
+
+.container .box:hover .content-field p {
+    margin: 0;
+    padding: 0;
+}
+
+.read-btn {
+    display: inline-block;
+    background: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+
+
+
 
 
 
