@@ -661,4 +661,8 @@ margin-top: 10px;
       width: 100%;
   }
 
+  #times {
+      display: none;
+  }
+
 }
