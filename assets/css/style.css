@@ -625,6 +625,11 @@ margin-top: 10px;
    .inner-container {
        width: 100%;
    }
+
+   .container .box {
+       width: 100%;
+       height: 100%;
+   }
 }
 
 @media (max-width: 560px){
@@ -657,5 +662,10 @@ margin-top: 10px;
   .social {
       width: 100%;
   }
+
+  .container .box {
+       width: 100%;
+       height: 100%;
+   }
 
 }
