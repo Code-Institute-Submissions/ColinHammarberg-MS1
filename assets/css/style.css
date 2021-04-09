@@ -182,6 +182,7 @@ justify-content: flex-start;
     margin: 20px;
     box-sizing: border-box;
     overflow: hidden;
+    text-align: center;
 }
 
 .container .box .icon {
@@ -189,6 +190,15 @@ justify-content: flex-start;
     width: 80px;
     height: 80px;
     color: #fff;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 50%;
+    font-size: 40px;
+    font-weight: 700;
+    transition: 1s;
 }
 
 
