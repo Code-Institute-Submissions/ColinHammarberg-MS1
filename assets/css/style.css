@@ -279,13 +279,14 @@ box-shadow: 0 0 0 400px #23355E;
 
 
 .sign-up-form {
-    width: 550px;
+    width: 525px;
     box-shadow:  0 0 3px 0 #23355E;
     background: #fff;
     padding: 40px;
     margin: 8% auto 0;
     text-align: center;
     margin-top: 36px;
+    margin-bottom: 50px;
     
 }
 
@@ -456,21 +457,38 @@ button {
 
  /* ----------------------------------------Contact Form */
 
+#landing-contact { 
+position: relative;
+width: 100%;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+background: url(../images/Tåg.jpg); no-repeat center center
+background-size: cover;
+background-position: center;
+}
+
 .contact-form {
-    width: 550px;
+    width: 525px;
     box-shadow:  0 0 3px 0 #23355E;
     background: #fff;
     padding: 40px;
     margin: 8% auto 0;
     text-align: center;
     margin-top: 36px;
+    margin-bottom: 50px;
     
 }
 
-.col h3 {
+
+.col {
     color: #23355E;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
 }
+
 
 .col h5 {
     color: #23355E;
@@ -484,7 +502,6 @@ button {
     width: 100%;
     border: 1px solid #23355E;
     outline: none;
-
 }
 
 .form-control {
@@ -517,21 +534,7 @@ button {
     background-color: #fff;
     background-position: center;
 }
-
-#landing-contact { 
-position: relative;
-width: 100%;
-min-height: 100vh;
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-background: url(../images/Tåg.jpg); no-repeat center center
-background-size: cover;
-background-position: center;
-}
   
-
-
  /* ----------------------------------------About us */
 
 * {
