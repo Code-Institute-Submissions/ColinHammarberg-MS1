@@ -256,8 +256,21 @@ box-shadow: 0 0 0 400px #e91e63;
 
 /* ----------------------------------------Registration form */
 
+#landing-register {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: url(../images/Mountain.jpg); no-repeat center center
+    background-size: cover;
+    background-position: center;
+}
+
+
 .sign-up-form {
-    width: 400px;
+    width: 550px;
     box-shadow:  0 0 3px 0 #23355E;
     background: #fff;
     padding: 40px;

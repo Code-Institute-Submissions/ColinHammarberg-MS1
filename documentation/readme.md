@@ -20,5 +20,7 @@ https://www.youtube.com/watch?v=JJkuGvfFKOw
 
 Pictures:
 
-https://www.pexels.com/sv-se/foto/landskap-natur-landmarke-bro-507410/
+https://www.pexels.com/sv-se/foto/landskap-natur-landmarke-bro-507410/.
+
+#landing-contact image was uploaded from Google.
 
