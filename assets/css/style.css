@@ -268,6 +268,10 @@ box-shadow: 0 0 0 400px #e91e63;
     background-position: center;
 }
 
+.heading-h1 {
+    color: #fff;
+}
+
 
 .sign-up-form {
     width: 550px;
@@ -280,9 +284,12 @@ box-shadow: 0 0 0 400px #e91e63;
     
 }
 
-.sign-up-form h1 {
+.sign-up-form h3 {
     color: #23355E;
     margin-bottom: 30px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    
 }
 
 .input-box {
@@ -514,9 +521,9 @@ background-color: #f1f1f1;
 .inner-container h1 {
 margin-bottom: 40px;
 font-size: 30px;
-font-weight: 900;
 color: #23355E;
 margin-top: 10px;
+text-transform: uppercase;
 }
 
 .text {
