@@ -142,6 +142,19 @@ label {
     z-index: 3;
 }
 
+/* ----------------------------------------Landing page section two */
+
+.section-two {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: sans-serif;
+}
+
+
 /* ----------------------------------------Information section */
 
 #section-two {
@@ -151,6 +164,13 @@ min-height: 100vh;
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
+}
+
+.container {
+    position: relative;
+    width: 350px;
+    padding: 40px;
+    background: #fff;
 }
 
 
