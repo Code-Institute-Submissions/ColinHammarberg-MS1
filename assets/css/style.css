@@ -176,7 +176,7 @@ justify-content: flex-start;
     position: relative;
     width: 350px;
     padding: 40px;
-    background: #fff;
+    background: rgb(72, 255, 0);
     box-shadow: 0 5px 15px rgba(0,0,0,.1);
     border-radius: 4px;
     margin: 20px;
@@ -186,6 +186,9 @@ justify-content: flex-start;
 
 .container .box .icon {
     position: relative;
+    width: 80px;
+    height: 80px;
+    color: #fff;
 }
 
 
