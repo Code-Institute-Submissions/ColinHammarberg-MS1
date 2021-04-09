@@ -651,6 +651,10 @@ margin-top: 10px;
       padding: 60px;
   }
 
+  .sign-up-form { 
+      width: 350px;
+  }
+
   .contact-form {
       width: 100%;
   }
