@@ -199,6 +199,28 @@ label {
     background: #e91e63;
 }
 
+.container .box:nth-child(1):hover .icon {
+box-shadow: 0 0 0 400px #e91e63;
+}
+
+.container .box .content-field {
+    position: relative;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.container .box:hover .content-field {
+    color: #fff;
+}
+
+.container .box:hover .content-field h3 {
+    font-size: 20px;
+    margin: 10px 0;
+    padding: 0;
+
+}
+
+
 
 /* ----------------------------------------Registration form */
 
