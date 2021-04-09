@@ -264,7 +264,7 @@ box-shadow: 0 0 0 400px #23355E;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background: url(../images/Register.jpg); no-repeat center center
+    background: url(../images/Doctor.jpg); no-repeat center center
     background-size: cover;
     background-position: center;
 }
