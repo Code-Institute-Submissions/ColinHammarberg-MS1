@@ -149,6 +149,7 @@ label {
 /* ----------------------------------------Information section */
 
 .section-two {
+    width: 100%;
     margin: 0;
     padding: 0;
     display: flex;
@@ -157,7 +158,6 @@ label {
     min-height: 100vh;
     font-family: sans-serif;
     background-color: rgb(228, 228, 228);
-    width: 700px;
 }
 
 .container {
