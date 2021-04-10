@@ -31,7 +31,6 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-
 .heading-text {
     color: #23355E;
 }
@@ -257,7 +256,12 @@ box-shadow: 0 0 0 400px #23355E;
 
 /* ----------------------------------------Registration form */
  
-#landing-register {
+
+
+
+/* ----------------------------------------Registration trial form */
+
+#landing-register{
    position: relative;
    width: 100%;
    min-height: 100vh;
@@ -267,92 +271,14 @@ box-shadow: 0 0 0 400px #23355E;
    background: url(../images/Doctor.jpg); no-repeat center center
    background-size: cover;
    background-position: center;
-}
- 
-.heading-h1 {
-   color: #fff;
-}
- 
-.navigation-h1 {
-   color: #fff;
-}
- 
- 
-.sign-up-form {
-   width: 525px;
-   box-shadow:  0 0 3px 0 #23355E;
-   background: #fff;
-   padding: 40px;
-   margin: 8% auto 0;
-   text-align: center;
-   margin-top: 36px;
-   margin-bottom: 50px;
-  
-}
- 
-.sign-up-form h3 {
-   color: #23355E;
-   margin-bottom: 30px;
-   margin-top: 10px;
-   text-transform: uppercase;
-  
-}
- 
-.input-box {
-   border-radius: 20px;
-   padding: 10px;
-   margin: 10px 0;
-   width: 100%;
-   border: 1px solid #23355E;
-   outline: none;
- 
-}
- 
-button {
-   color: #fff;
-   width: 100%;
-   padding: 10px;
-   border-radius: 20px;
-   font-size: 15px;
-   margin: 10px 0;
-   border: none;
-   outline: none;
-   cursor: pointer;
-   background-color: #23355E;
-   text-transform: uppercase;
-}
- 
-.demo {
-   margin: 0;
-   padding: 0;
-   font-family: sans-serif;
-   background-color: #fff;
-   background-position: center;
-}
- 
-.style hr {
-   margin-top: 20px;
-   width: 80%;
-}
- 
-.or {
-    background: #fff;
-    width: 30px;
-    margin: -19px auto 10px;
-}
-
-
-
-
-/* ----------------------------------------Registration trial form */
-
-#landing-register{
-  height: 100vh;
-  display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px;
-  background-image: url(../images/Doctor.jpg);
+ 
+}
+
+.heading-h1 {
+    color: #fff;
+    font-weight: 400;
 }
 
 header .navigations a {
@@ -374,7 +300,6 @@ header .navigations a:not(:last-child){
 header .navigations a:hover{
   background: #23355E;
 }
-
 
 .container-two{
   max-width: 700px;
@@ -513,8 +438,6 @@ form .input-bot span.details{
 .media-icon a:hover{
   transform: scale(1.5);
 }
- 
-
 
  /* ----------------------------------------Instagram feed */
 
@@ -683,7 +606,7 @@ min-height: 100vh;
 display: flex;
 align-items: center;
 justify-content: center;
-background-color: #f1f1f1;
+background-color: #fdfdfd;
 }
 
 .about-section {
@@ -741,11 +664,7 @@ text-transform: uppercase;
     margin-left: 110px;
     margin-top: 40px;
     text-transform: uppercase;
-    
-    
 }
-
-/* Responsive CSS */
 
 
 /* Responsive CSS */
@@ -760,7 +679,7 @@ text-transform: uppercase;
       display: none;
   }
     }
-}
+
 
 @media(max-width: 1200px){
     .inner-container {
@@ -778,7 +697,8 @@ text-transform: uppercase;
     display: none;
   }
 
-  header .navigations a{display: none;
+  header .navigations 
+  {display: none;
   }
 
   label{
@@ -812,6 +732,27 @@ text-transform: uppercase;
   }
 
   #check:checked ~ header .navigation a {
+      font-weight: 700;
+      margin-right: 0;
+      margin-bottom: 50px;
+      letter-spacing: 2px;
+}
+
+#check:checked ~ header .navigations{
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(114, 223, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #check:checked ~ header .navigations a {
       font-weight: 700;
       margin-right: 0;
       margin-bottom: 50px;
