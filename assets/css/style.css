@@ -378,6 +378,182 @@ button {
      color: #000;
  }
 
+  /* ----------------------------------------Registration form trial */
+
+
+ #landing-register{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-image: url(../images/Doctor.jpg);
+}
+
+#check {
+    z-index: 3;
+    float: left;
+}
+
+header .navigations a{
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 2px 15px;
+  border-radius: 20px;
+  transition: 0.3s;
+  transition-property: background;
+}
+
+header .navigations a:not(:last-child){
+  margin-right: 30px;
+}
+
+header .navigations a:hover{
+  background: #23355E;
+}
+
+
+.container-two{
+  max-width: 700px;
+  width: 100%;
+  background-color: #fff;
+  padding: 25px 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+.container-two .title{
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+  color: #23355E;
+  text-transform: uppercase;
+}
+.container-two .title::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 30px;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #23355E, #000);
+}
+.content-two form .user-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+form .user-details .input-bot{
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+}
+form .input-bot span.details{
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: #23355E;
+}
+.user-details .input-bot input{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #23355E;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+.user-details .input-bot input:focus,
+.user-details .input-bot input:valid{
+  border-color: #23355E;
+}
+ form .gender-details .gender-title{
+  font-size: 20px;
+  font-weight: 500;
+  color: #23355E;
+ }
+
+ .gender {
+     color: #23355E;
+ }
+ 
+ form .category{
+   display: flex;
+   width: 80%;
+   margin: 14px 0 ;
+   justify-content: space-between;
+ }
+ form .category label{
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+ }
+ form .category label .dot{
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background: #d9d9d9;
+  border: 5px solid transparent;
+  transition: all 0.3s ease;
+}
+ #dot-1:checked ~ .category label .one,
+ #dot-2:checked ~ .category label .two,
+ #dot-3:checked ~ .category label .three{
+   background: #23355E;
+   border-color: #d9d9d9;
+ }
+ form input[type="radio"]{
+   display: none;
+ }
+ form .button-btn{
+   height: 45px;
+   margin: 35px 0
+ }
+ form .button-btn input{
+   height: 100%;
+   width: 100%;
+   border-radius: 5px;
+   border: none;
+   color: #fff;
+   font-size: 18px;
+   font-weight: 700;
+   letter-spacing: 1px;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   background: linear-gradient(135deg, #23355E, #fff);
+ }
+ form .button-btn input:hover{
+  /* transform: scale(0.99); */
+  background: linear-gradient(-135deg, #23355E, #fff);
+  }
+
+  .media-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.media-icon a {
+    position: relative;
+    color: #fff;
+    font-size: 25px; 
+}
+
+.media-icon a:not(:last-child) {
+    margin-right: 60px;
+}
+
+.media-icon a:hover{
+  transform: scale(1.5);
+}
+
  
 
 
@@ -613,6 +789,9 @@ text-transform: uppercase;
 /* Responsive CSS */
 
 
+/* Responsive CSS */
+
+
 @media(max-width: 1920px){
 
     .container {
@@ -638,6 +817,9 @@ text-transform: uppercase;
 @media (max-width: 960px){
   header .navigation{
     display: none;
+  }
+
+  header .navigations a{display: none;
   }
 
   label{
@@ -763,7 +945,25 @@ text-transform: uppercase;
   #times {
       display: none;
   }
+  .container-two{
+  max-width: 100%;
+}
+form .user-details .input-bot{
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  form .category{
+    width: 100%;
+  }
+  .content-two form .user-details{
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+  .user-details::-webkit-scrollbar{
+    width: 5px;
+  }
+  }
 
   
 
-}
+
