@@ -256,132 +256,97 @@ box-shadow: 0 0 0 400px #23355E;
 }
 
 /* ----------------------------------------Registration form */
-
+ 
 #landing-register {
-    position: relative;
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    background: url(../images/Doctor.jpg); no-repeat center center
-    background-size: cover;
-    background-position: center;
+   position: relative;
+   width: 100%;
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   background: url(../images/Doctor.jpg); no-repeat center center
+   background-size: cover;
+   background-position: center;
 }
-
+ 
 .heading-h1 {
-    color: #fff;
+   color: #fff;
 }
-
+ 
 .navigation-h1 {
-    color: #fff;
+   color: #fff;
 }
-
-
+ 
+ 
 .sign-up-form {
-    width: 525px;
-    box-shadow:  0 0 3px 0 #23355E;
-    background: #fff;
-    padding: 40px;
-    margin: 8% auto 0;
-    text-align: center;
-    margin-top: 36px;
-    margin-bottom: 50px;
-    
+   width: 525px;
+   box-shadow:  0 0 3px 0 #23355E;
+   background: #fff;
+   padding: 40px;
+   margin: 8% auto 0;
+   text-align: center;
+   margin-top: 36px;
+   margin-bottom: 50px;
+  
 }
-
+ 
 .sign-up-form h3 {
-    color: #23355E;
-    margin-bottom: 30px;
-    margin-top: 10px;
-    text-transform: uppercase;
-    
+   color: #23355E;
+   margin-bottom: 30px;
+   margin-top: 10px;
+   text-transform: uppercase;
+  
 }
-
+ 
 .input-box {
-    border-radius: 20px;
-    padding: 10px;
-    margin: 10px 0;
-    width: 100%;
-    border: 1px solid #23355E;
-    outline: none;
-
+   border-radius: 20px;
+   padding: 10px;
+   margin: 10px 0;
+   width: 100%;
+   border: 1px solid #23355E;
+   outline: none;
+ 
 }
-
+ 
 button {
-    color: #fff;
-    width: 100%;
-    padding: 10px;
-    border-radius: 20px;
-    font-size: 15px;
-    margin: 10px 0;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    background-color: #23355E; 
-    text-transform: uppercase;
+   color: #fff;
+   width: 100%;
+   padding: 10px;
+   border-radius: 20px;
+   font-size: 15px;
+   margin: 10px 0;
+   border: none;
+   outline: none;
+   cursor: pointer;
+   background-color: #23355E;
+   text-transform: uppercase;
 }
-
+ 
 .demo {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    background-color: #fff;
-    background-position: center;
+   margin: 0;
+   padding: 0;
+   font-family: sans-serif;
+   background-color: #fff;
+   background-position: center;
+}
+ 
+.style hr {
+   margin-top: 20px;
+   width: 80%;
+}
+ 
+.or {
+    background: #fff;
+    width: 30px;
+    margin: -19px auto 10px;
 }
 
-.style hr {
-    margin-top: 20px;
-    width: 80%;
- }
-
- .or {
-     background: #fff;
-     width: 30px;
-     margin: -19px auto 10px;
- }
-
- /* ----------------------------------------Registration form trial */
-
- .hero {
-     height: 100%;
-     width: 100%;
-     background-position: center;
-     background-size: cover;
-     position: absolute;
- }
-
- .form-box {
-     width: 380px;
-     height: 480px;
-     position: relative;
-     margin: 6% auto;
-     background: #fff;
-     padding: 5px;
- }
-
- .button-box {
-     width: 220px;
-     margin: 35px auto;
-     position: relative;
-     box-shadow: 0 0 20px 9px #ff61241f;
-     border-radius: 30px;
- }
-
- .toggle-btn {
-     padding: 10px 30px;
-     cursor: pointer;
-     background-color: transparent;
-     border: 0;
-     outline: none;
-     position: relative;
-     color: #000;
- }
-
-  /* ----------------------------------------Registration form trial */
 
 
- #landing-register{
+
+/* ----------------------------------------Registration trial form */
+
+#landing-register{
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -390,12 +355,7 @@ button {
   background-image: url(../images/Doctor.jpg);
 }
 
-#check {
-    z-index: 3;
-    float: left;
-}
-
-header .navigations a{
+header .navigations a {
   color: #fff;
   font-size: 18px;
   text-decoration: none;
@@ -553,7 +513,6 @@ form .input-bot span.details{
 .media-icon a:hover{
   transform: scale(1.5);
 }
-
  
 
 
