@@ -33,9 +33,10 @@ header {
 }
 .heading-text {
     color: #23355E;
+    margin-right: 40px;
 }
 
-header .logo {
+header .heading-text {
     position: relative;
     color: #23355E;
     font-size: 30px;
@@ -271,9 +272,14 @@ box-shadow: 0 0 0 400px #23355E;
  
 }
 
-.heading-h1 {
+header .heading-h1 {
+    position: relative;
     color: #fff;
-    font-weight: 400;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
 }
 
 header .navigations a {
