@@ -948,6 +948,10 @@ header .navigation{
     font-size: 14px;
   }
 
+  .second {
+      display: none;
+  }
+
 }
 
 @media (max-width: 560px){
@@ -1006,6 +1010,10 @@ form .user-details .input-bot{
   }
   .user-details::-webkit-scrollbar{
     width: 5px;
+  }
+
+  .second {
+      display: none;
   }
   }
 
