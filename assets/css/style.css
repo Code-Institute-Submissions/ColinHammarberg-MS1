@@ -255,11 +255,6 @@ box-shadow: 0 0 0 400px #23355E;
 }
 
 /* ----------------------------------------Registration form */
- 
-
-
-
-/* ----------------------------------------Registration trial form */
 
 #landing-register{
    position: relative;
@@ -554,21 +549,31 @@ background-position: center;
 }
 
 .input-box {
-    border-radius: 20px;
-    padding: 10px;
-    margin: 10px 0;
-    width: 100%;
-    border: 1px solid #23355E;
-    outline: none;
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #23355E;
+  border-bottom-width: 1px;
+  transition: all 0.3s ease; 
 }
 
 .form-control {
-    border-radius: 20px;
-    padding: 10px;
-    margin: 10px 0;
-    width: 100%;
-    border: 1px solid #23355E;
-    outline: none;
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #23355E;
+  border-bottom-width: 1px;
+  transition: all 0.3s ease;
+}
+
+.checkbox {
+    margin-top: 30px;
 }
 
 button {
