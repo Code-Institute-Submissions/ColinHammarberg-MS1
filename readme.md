@@ -104,15 +104,17 @@
 
 # Media
 1. The photos used in this site were obtained mostly from www.pexels.com.
-2. Landing page image (#index.html) - obtained from Google
-3. About us page image (#aboutus.html) - obtained from Pexels
-4. Contact us page image (#contact.html) - obtained from Pexels
-5. Register page image (#register.html) - obtained from Pexels
+2. Landing page image (#index.html) - obtained from Google (https://www.patrika.com/jabalpur-news/super-specialty-operations-free-of-cost-by-private-doctors-1-1926438/)
+3. About us page image (#aboutus.html) - obtained from Pexels (https://www.pexels.com/sv-se/foto/kvinna-skylt-varning-text-3951615/)
+4. Contact us page image (#contact.html) - obtained from Pexels (https://www.pexels.com/sv-se/foto/landskap-natur-landmarke-bro-507410/)
+5. Register page image (#register.html) - obtained from Pexels (https://www.pexels.com/sv-se/foto/man-manniskor-kvinna-foretag-5452228/)
 
 # Acknowledgements
 1. I received inspiration for this project from Erik Wibom and Gurjot (Mentor).
 2. I was inspired to create the second section on the landing page by Online Tutorials on Youtube (https://www.youtube.com/watch?v=JJkuGvfFKOw).
 3. I was inspired to create the (#register.html) page design by Easy Tutorials on Youtube (https://www.youtube.com/channel/UCkjoHfkLEy7ZT4bA2myJ8xA).
+4. I was inspired to create a informational section and I knew that I wanted something more to happen, rather than that the user only reads the content. So I took a lot of inspiration from (https://www.youtube.com/watch?v=JJkuGvfFKOw) and learned to adapt it into my own project. 
+5. At some points I experienced issues with getting sections, logos etc. to move where I wanted them too. In those periods, I took help from the great (https://www.w3schools.com/html/). It helped me to get a better understanding around what I was actually writing and trying to do. 
 
 
 
