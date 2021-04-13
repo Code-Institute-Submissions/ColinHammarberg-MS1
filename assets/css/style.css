@@ -63,7 +63,7 @@ header .navigation a:not(:last-child){
 }
 
 header .navigation a:hover{
-  background: #B7876F;
+  background: #fff;
 }
 
 .content {
@@ -110,7 +110,7 @@ header .navigation a:hover{
 }
 
 .content .info-btn:hover {
-    background: #B7876F;
+    background: #fff;
 }
 
 .media-icons {
@@ -624,13 +624,13 @@ min-height: 100vh;
 display: flex;
 align-items: center;
 justify-content: center;
-background-color: #fdfdfd;
+background-color: #f8f8f8;
 }
 
 .about-section {
     background: url(../images/Covid-19.jpeg) no-repeat left;
     background-size: 55%;
-    background-color: #fdfdfd;
+    background-color: #f8f8f8;
     overflow: hidden;
     padding: 100px 0;
 }
