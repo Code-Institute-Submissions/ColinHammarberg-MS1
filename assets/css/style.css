@@ -110,7 +110,7 @@ header .navigation a:hover{
 }
 
 .content .info-btn:hover {
-    background: #fff;
+    background: #23355E;
 }
 
 .media-icons {
@@ -273,7 +273,7 @@ label {
    display: flex;
    flex-direction: column;
    justify-content: flex-start;
-   background: url(../images/Registration3.jpg); no-repeat center center
+   background: url(../images/Registration4.jpg); no-repeat center center
    background-size: cover;
    background-position: center;
   justify-content: center;
