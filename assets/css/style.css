@@ -264,6 +264,8 @@ label {
 
 /* ----------------------------------------Registration form */
 
+
+
 #landing-register{
    position: relative;
    width: 100%;
@@ -271,13 +273,15 @@ label {
    display: flex;
    flex-direction: column;
    justify-content: flex-start;
-   background: url(../images/Doctor.jpg); no-repeat center center
+   background: url(../images/Registration3.jpg); no-repeat center center
    background-size: cover;
    background-position: center;
   justify-content: center;
   align-items: center;
  
 }
+
+
 
 header .heading-h1 {
     position: relative;
@@ -530,10 +534,11 @@ min-height: 100vh;
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
-background: url(../images/Tåg.jpg); no-repeat center center
+background: url(../images/Contactus.jpg); no-repeat center center
 background-size: cover;
 background-position: center;
 }
+
 
 .contact-form {
     width: 525px;
