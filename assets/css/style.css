@@ -410,18 +410,21 @@ form .input-bot span.details{
  }
  form .button-btn{
    height: 45px;
-   margin: 35px 0
+   margin: 35px 0;
  }
  form .button-btn input{
-   height: 100%;
-   width: 100%;
-   border-radius: 5px;
-   border: none;
-   color: #fff;
-   font-size: 18px;
-   font-weight: 700;
-   letter-spacing: 1px;
-   cursor: pointer;
+    color: #fff;
+    width: 100%;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #23355E;
+    font-weight: 700;
    transition: all 0.3s ease;
    background: linear-gradient(135deg, #23355E, #fff);
  }
