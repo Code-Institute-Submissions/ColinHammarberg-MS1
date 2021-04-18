@@ -220,7 +220,7 @@ label {
 }
 
 .container .box:nth-child(1):hover .col-sm {
-    box-shadow: 0 0 0 400px #23355E;
+    box-shadow: 0 0 0 450px #23355E;
 }
 
 .container .box .content-field {
