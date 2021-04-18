@@ -11,6 +11,9 @@
 
 [Desktop Wireframes,](https://github.com/ColinHammarberg/Playful/blob/83af5cdcb2bc966b7603875ff3de27b0c9699c73/documentation/Desktop-Wireframe.pdf)
 [Smartphone & Tablet Wireframes](https://github.com/ColinHammarberg/Playful/blob/83af5cdcb2bc966b7603875ff3de27b0c9699c73/documentation/Mobile-Tablet-Wireframes.pdf)
+[Mockups,](https://github.com/ColinHammarberg/Playful/blob/2c8431cd3d91c823cb12390237164ccc629c4731/documentation/Mockups%20DR.%20Health.pdf)
+
+
 
 ##### Refer Doctor was created for every single individual who feels that the current system is not working well for them. There is a large number of individuals who are afraid of the current infrastructure, developed by the Official Swedish Health Department, due to the lack of structure and speed in the vaccination process, but also the current risk with taking a Covid-19 test. To be able to take a Covid-19 test, to check if you either got antibodies against the virus or if you are currently infected by the virus, you will have to go and do it at a clinic. Refer Doctor is developing a delivery service for the Covid-19 tests, and is also developing a tool for individuals to check their current status of getting the vaccine against the virus.
 
