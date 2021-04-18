@@ -11,7 +11,7 @@
 
 1. [Desktop Wireframes](https://github.com/ColinHammarberg/Playful/blob/83af5cdcb2bc966b7603875ff3de27b0c9699c73/documentation/Desktop-Wireframe.pdf)
 2. [Smartphone & Tablet Wireframes](https://github.com/ColinHammarberg/Playful/blob/83af5cdcb2bc966b7603875ff3de27b0c9699c73/documentation/Mobile-Tablet-Wireframes.pdf)
-3. [Mockups](https://github.com/ColinHammarberg/Playful/blob/2c8431cd3d91c823cb12390237164ccc629c4731/documentation/Mockups%20DR.%20Health.pdf)
+3. [Mockups](https://github.com/ColinHammarberg/Playful/blob/28cc71919cb536c73e72a70c0945fcd61b091057/documentation/Mockups%20DR.%20Health.pdf)
 
 
 
