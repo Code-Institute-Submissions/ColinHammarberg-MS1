@@ -1,13 +1,13 @@
-# REFER DOCTOR
+# DR. HEALTH
 
-##### Refer Doctor was created for every single individual who feels that the current system against the Covid-19 Virus is not working well for them.
+##### DR. Health was created for every single individual who feels that the current system against the Covid-19 Virus is not working well for them.
 
 # UX
 
 * As an everyday user I want to experience User Friendly platforms, that are easy to understand. 
-* The users of Refer Doctor are the individuals who wants a quick and safe process in the current pandemic.
+* The users of DR. Health are the individuals who wants a quick and safe process in the current pandemic.
 * The users wants a tool to trust and a tool that respects and understands their needs. 
-* Refer Doctor gives the users one single platform, to help them achieve a more safer, structual and quicker process in the current pandemic. 
+* DR. Health gives the users one single platform, to help them achieve a more safer, structual and quicker process in the current pandemic. 
 
 1. [Desktop Wireframes](https://github.com/ColinHammarberg/Playful/blob/83af5cdcb2bc966b7603875ff3de27b0c9699c73/documentation/Desktop-Wireframe.pdf)
 2. [Smartphone & Tablet Wireframes](https://github.com/ColinHammarberg/Playful/blob/83af5cdcb2bc966b7603875ff3de27b0c9699c73/documentation/Mobile-Tablet-Wireframes.pdf)
@@ -15,7 +15,7 @@
 
 
 
-##### Refer Doctor was created for every single individual who feels that the current system is not working well for them. There is a large number of individuals who are afraid of the current infrastructure, developed by the Official Swedish Health Department, due to the lack of structure and speed in the vaccination process, but also the current risk with taking a Covid-19 test. To be able to take a Covid-19 test, to check if you either got antibodies against the virus or if you are currently infected by the virus, you will have to go and do it at a clinic. Refer Doctor is developing a delivery service for the Covid-19 tests, and is also developing a tool for individuals to check their current status of getting the vaccine against the virus.
+##### DR. Health was created for every single individual who feels that the current system is not working well for them. There is a large number of individuals who are afraid of the current infrastructure, developed by the Official Swedish Health Department, due to the lack of structure and speed in the vaccination process, but also the current risk with taking a Covid-19 test. To be able to take a Covid-19 test, to check if you either got antibodies against the virus or if you are currently infected by the virus, you will have to go and do it at a clinic. DR. Health is developing a delivery service for the Covid-19 tests, and is also developing a tool for individuals to check their current status of getting the vaccine against the virus.
 
 # Features
 
@@ -33,7 +33,7 @@
 * The contact function has not been connected with an external server.
 * The Counseling page has not yet been published. 
 
-##### At this moment Refer Doctor has only been developed with front end code and design. But will in the near future have all features functioning. 
+##### At this moment DR. Health has only been developed with front end code and design. But will in the near future have all features functioning. 
 
 # Technologies Used
 
@@ -50,7 +50,7 @@
 * The project uses English as its standard language and an Lang=”en” attribute has also been implemented. 
 
 # Testing
-### I (Colin Hammarberg) have been conducted tests for Refer Doctor regulary and have made sure that the website is functioning well. The website has been tested on the following devices:
+### I (Colin Hammarberg) have been conducted tests for DR. Health regulary and have made sure that the website is functioning well. The website has been tested on the following devices:
 * Macbook Air (13 Inch Screen Resolution)
 * Ipad Pro (12.90 Inch Touch Screen Resolution)
 * Iphone 12 (6.1 Inch Touch Screen Resolution)
