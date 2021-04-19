@@ -109,8 +109,8 @@
 1. The photos used in this site were obtained mostly from www.pexels.com.
 2. Landing page image (#index.html) - obtained from Google (https://www.patrika.com/jabalpur-news/super-specialty-operations-free-of-cost-by-private-doctors-1-1926438/)
 3. About us page image (#aboutus.html) - obtained from Pexels (https://www.pexels.com/sv-se/foto/kvinna-skylt-varning-text-3951615/)
-4. Contact us page image (#contact.html) - obtained from Pexels (https://www.pexels.com/sv-se/foto/landskap-natur-landmarke-bro-507410/)
-5. Register page image (#register.html) - obtained from Pexels (https://www.pexels.com/sv-se/foto/man-manniskor-kvinna-foretag-5452228/)
+4. Contact us page image (#contact.html) - obtained from Pexels (https://www.pexels.com/sv-se/foto/kabel-forbindelse-teknologi-svart-821754/)
+5. Register page image (#register.html) - obtained from Pexels (https://www.pexels.com/sv-se/foto/manniskor-dimma-dimmig-klippa-1647962/)
 
 # Acknowledgements
 1. I received inspiration for this project from Erik Wibom and Gurjot (Mentor).
